@@ -44,7 +44,7 @@ table {
 header{
   height: 200px;
   width: 100%;
-  background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/wildlife/elephants-in-the-distance-sunset-landscape-website-header.jpg");
+  background-image: url("http://freetwitterheaders.net/wp-content/uploads/2012/12/Mountain-Landscape-Twitter-Headers-Twitter-Covers-580x290.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -116,6 +116,68 @@ img{
   height: 300px;
   width: 225px;
 }
+.float-box{
+	position: fixed;
+	clear: both;
+	outline: 1px solid black;
+	bottom: 5%;
+	right: 0;
+	width: 250px;
+	height: 75px;
+	background-color: rgb(220, 220, 220);
+}
+.float-box p{
+	outline: solid 1px black;
+	font-size: 14px;
+	padding: 2px;
+	overflow: auto;
+	max-width: 250px;
+	font-family: sans-serif;
+}
+.bottom-box{
+	float: left;
+	width: 25%;
+}
+.bottom-box img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	bottom: -10px;
+	left: 25%;
+}
+.middle-item{
+	float: left;
+	width: 40%;
+	position: relative;
+	bottom: -10px;
+}
+.middle-item h1{
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.middle-item p{
+	font-size: 10px;
+	font-weight: normal;
+	outline: none;
+	border: none;
+}
+.float-right1{
+	float: left;
+	width: 25%;
+	background-color: blue;
+	color: white;
+	border-radius: 3%;
+	position: relative;
+	bottom: -20px;
+	left: 5%;
+}
+.float-right1 p{
+	font-size: 14px;
+	text-align: center;
+}
+
+
 @media(max-width: 950px){
   .searchKey{
     display: none;
